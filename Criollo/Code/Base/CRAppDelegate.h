@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CRAppDelegateModules.h"
 
 @interface CRAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (nonatomic, strong) id <CRApplicationLifetimeDelegate> 
 
 @end

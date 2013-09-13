@@ -12,13 +12,24 @@
 		6823FBBF17E0CAF300611878 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6823FBBE17E0CAF300611878 /* UIKit.framework */; };
 		6823FBC517E0CAF300611878 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6823FBC317E0CAF300611878 /* InfoPlist.strings */; };
 		6823FBC717E0CAF300611878 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6823FBC617E0CAF300611878 /* main.m */; };
-		6823FBCB17E0CAF300611878 /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6823FBCA17E0CAF300611878 /* CRAppDelegate.m */; };
 		6823FBCD17E0CAF300611878 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6823FBCC17E0CAF300611878 /* Images.xcassets */; };
 		6823FBD417E0CAF300611878 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6823FBD317E0CAF300611878 /* XCTest.framework */; };
 		6823FBD517E0CAF300611878 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6823FBBA17E0CAF300611878 /* Foundation.framework */; };
 		6823FBD617E0CAF300611878 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6823FBBE17E0CAF300611878 /* UIKit.framework */; };
 		6823FBDE17E0CAF300611878 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6823FBDC17E0CAF300611878 /* InfoPlist.strings */; };
 		6823FBE017E0CAF300611878 /* CriolloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6823FBDF17E0CAF300611878 /* CriolloTests.m */; };
+		6855F120B5295163796DEAA3 /* CRDependencyBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6855FE09AEAD8277D3C0B5A2 /* CRDependencyBuilder.m */; };
+		6855F8CE28332B0C5722404B /* CRDependencyContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6855FBEFCA4C24CA0DBACD64 /* CRDependencyContainer.m */; };
+		6855FC590E89507255424607 /* CRBindModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6855F764F96979C408676D59 /* CRBindModel.m */; };
+		685674B417E36E4400403049 /* CRApplicationDelegateDependencyConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 685674B317E36E4400403049 /* CRApplicationDelegateDependencyConfigurator.m */; };
+		68B9BD6717E34300005134C5 /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9BD6117E34300005134C5 /* CRAppDelegate.m */; };
+		68B9BD6817E34300005134C5 /* CRBaseInjectionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9BD6417E34300005134C5 /* CRBaseInjectionService.m */; };
+		68B9BD7817E34767005134C5 /* CRObjectionBaseModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9BD7717E34767005134C5 /* CRObjectionBaseModule.m */; };
+		68B9BD7C17E34A44005134C5 /* CRObjectionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9BD7B17E34A44005134C5 /* CRObjectionService.m */; };
+		68B9BD7F17E34D6F005134C5 /* CRObjectionRegisterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9BD7E17E34D6F005134C5 /* CRObjectionRegisterModule.m */; };
+		68B9BD8417E34E76005134C5 /* CRClassForTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9BD8317E34E76005134C5 /* CRClassForTest.m */; };
+		68B9BD8717E34F9F005134C5 /* CRClassWithProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9BD8617E34F9F005134C5 /* CRClassWithProtocol.m */; };
+		BF748911CE9C446B9D8108F6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE22655F9CE64B8A8F918EE3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +51,40 @@
 		6823FBC417E0CAF300611878 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6823FBC617E0CAF300611878 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6823FBC817E0CAF300611878 /* Criollo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Criollo-Prefix.pch"; sourceTree = "<group>"; };
-		6823FBC917E0CAF300611878 /* CRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAppDelegate.h; sourceTree = "<group>"; };
-		6823FBCA17E0CAF300611878 /* CRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAppDelegate.m; sourceTree = "<group>"; };
 		6823FBCC17E0CAF300611878 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6823FBD217E0CAF300611878 /* CriolloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriolloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6823FBD317E0CAF300611878 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6823FBDB17E0CAF300611878 /* CriolloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CriolloTests-Info.plist"; sourceTree = "<group>"; };
 		6823FBDD17E0CAF300611878 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6823FBDF17E0CAF300611878 /* CriolloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CriolloTests.m; sourceTree = "<group>"; };
+		6855F0F3919FEDF2094C03AA /* CRDependencyContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDependencyContainer.h; sourceTree = "<group>"; };
+		6855F70480909371363E8EA0 /* CRDependencyBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDependencyBuilder.h; sourceTree = "<group>"; };
+		6855F764F96979C408676D59 /* CRBindModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBindModel.m; sourceTree = "<group>"; };
+		6855F88DC5699634262CFF5C /* CRBindModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBindModel.h; sourceTree = "<group>"; };
+		6855FBEFCA4C24CA0DBACD64 /* CRDependencyContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDependencyContainer.m; sourceTree = "<group>"; };
+		6855FE09AEAD8277D3C0B5A2 /* CRDependencyBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDependencyBuilder.m; sourceTree = "<group>"; };
+		6855FFB5FCEE33EEAEFD2025 /* CRAppDelegateModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAppDelegateModules.h; sourceTree = "<group>"; };
+		685674B217E36E4400403049 /* CRApplicationDelegateDependencyConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRApplicationDelegateDependencyConfigurator.h; sourceTree = "<group>"; };
+		685674B317E36E4400403049 /* CRApplicationDelegateDependencyConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRApplicationDelegateDependencyConfigurator.m; sourceTree = "<group>"; };
+		68B9BD6017E34300005134C5 /* CRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRAppDelegate.h; sourceTree = "<group>"; };
+		68B9BD6117E34300005134C5 /* CRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRAppDelegate.m; sourceTree = "<group>"; };
+		68B9BD6317E34300005134C5 /* CRBaseInjectionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBaseInjectionService.h; sourceTree = "<group>"; };
+		68B9BD6417E34300005134C5 /* CRBaseInjectionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBaseInjectionService.m; sourceTree = "<group>"; };
+		68B9BD6617E34300005134C5 /* CRConfigurationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConfigurationProtocol.h; sourceTree = "<group>"; };
+		68B9BD7117E34704005134C5 /* CRInjectionModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRInjectionModuleProtocol.h; sourceTree = "<group>"; };
+		68B9BD7617E34767005134C5 /* CRObjectionBaseModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRObjectionBaseModule.h; sourceTree = "<group>"; };
+		68B9BD7717E34767005134C5 /* CRObjectionBaseModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRObjectionBaseModule.m; sourceTree = "<group>"; };
+		68B9BD7A17E34A44005134C5 /* CRObjectionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRObjectionService.h; sourceTree = "<group>"; };
+		68B9BD7B17E34A44005134C5 /* CRObjectionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRObjectionService.m; sourceTree = "<group>"; };
+		68B9BD7D17E34D6F005134C5 /* CRObjectionRegisterModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRObjectionRegisterModule.h; sourceTree = "<group>"; };
+		68B9BD7E17E34D6F005134C5 /* CRObjectionRegisterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRObjectionRegisterModule.m; sourceTree = "<group>"; };
+		68B9BD8117E34E61005134C5 /* CRProtocolToTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRProtocolToTest.h; sourceTree = "<group>"; };
+		68B9BD8217E34E76005134C5 /* CRClassForTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRClassForTest.h; sourceTree = "<group>"; };
+		68B9BD8317E34E76005134C5 /* CRClassForTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRClassForTest.m; sourceTree = "<group>"; };
+		68B9BD8517E34F9F005134C5 /* CRClassWithProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRClassWithProtocol.h; sourceTree = "<group>"; };
+		68B9BD8617E34F9F005134C5 /* CRClassWithProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRClassWithProtocol.m; sourceTree = "<group>"; };
+		AD06AC387D7F4E3CA448FA8B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FE22655F9CE64B8A8F918EE3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,7 @@
 				6823FBBD17E0CAF300611878 /* CoreGraphics.framework in Frameworks */,
 				6823FBBF17E0CAF300611878 /* UIKit.framework in Frameworks */,
 				6823FBBB17E0CAF300611878 /* Foundation.framework in Frameworks */,
+				BF748911CE9C446B9D8108F6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +119,7 @@
 				6823FBD917E0CAF300611878 /* CriolloTests */,
 				6823FBB917E0CAF300611878 /* Frameworks */,
 				6823FBB817E0CAF300611878 /* Products */,
+				AD06AC387D7F4E3CA448FA8B /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +139,7 @@
 				6823FBBC17E0CAF300611878 /* CoreGraphics.framework */,
 				6823FBBE17E0CAF300611878 /* UIKit.framework */,
 				6823FBD317E0CAF300611878 /* XCTest.framework */,
+				FE22655F9CE64B8A8F918EE3 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +147,7 @@
 		6823FBC017E0CAF300611878 /* Criollo */ = {
 			isa = PBXGroup;
 			children = (
-				6823FBC917E0CAF300611878 /* CRAppDelegate.h */,
-				6823FBCA17E0CAF300611878 /* CRAppDelegate.m */,
+				68B9BD5E17E34300005134C5 /* Code */,
 				6823FBCC17E0CAF300611878 /* Images.xcassets */,
 				6823FBC117E0CAF300611878 /* Supporting Files */,
 			);
@@ -144,6 +183,127 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6855F262CDCAAEA5CF2DCE18 /* Dependency Builder */ = {
+			isa = PBXGroup;
+			children = (
+				6855FE09AEAD8277D3C0B5A2 /* CRDependencyBuilder.m */,
+				6855F70480909371363E8EA0 /* CRDependencyBuilder.h */,
+			);
+			path = "Dependency Builder";
+			sourceTree = "<group>";
+		};
+		6855F4A766C7F036FCA8DAA6 /* Dependency Container */ = {
+			isa = PBXGroup;
+			children = (
+				6855FBEFCA4C24CA0DBACD64 /* CRDependencyContainer.m */,
+				6855F0F3919FEDF2094C03AA /* CRDependencyContainer.h */,
+			);
+			path = "Dependency Container";
+			sourceTree = "<group>";
+		};
+		6855F6ECB8DECF0B2965727B /* Configuration Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Configuration Module";
+			sourceTree = "<group>";
+		};
+		6855F949FB50A4EF82142CE1 /* Dependency Injection */ = {
+			isa = PBXGroup;
+			children = (
+				6855F4A766C7F036FCA8DAA6 /* Dependency Container */,
+				6855F6ECB8DECF0B2965727B /* Configuration Module */,
+				6855F262CDCAAEA5CF2DCE18 /* Dependency Builder */,
+			);
+			path = "Dependency Injection";
+			sourceTree = "<group>";
+		};
+		6855FA0C35B0353D87CECE01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6855F88DC5699634262CFF5C /* CRBindModel.h */,
+				6855F764F96979C408676D59 /* CRBindModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		68B9BD5E17E34300005134C5 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				68B9BD8017E34E56005134C5 /* Testing */,
+				68B9BD5F17E34300005134C5 /* Base */,
+				68B9BD6517E34300005134C5 /* Protocols */,
+				6855F949FB50A4EF82142CE1 /* Dependency Injection */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		68B9BD5F17E34300005134C5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				68B9BD6017E34300005134C5 /* CRAppDelegate.h */,
+				68B9BD6117E34300005134C5 /* CRAppDelegate.m */,
+				68B9BD7917E34A3A005134C5 /* ObjectionService */,
+				68B9BD7217E34741005134C5 /* Modules */,
+				68B9BD6217E34300005134C5 /* InjectionService */,
+				6855FA0C35B0353D87CECE01 /* Models */,
+				685674B217E36E4400403049 /* CRApplicationDelegateDependencyConfigurator.h */,
+				685674B317E36E4400403049 /* CRApplicationDelegateDependencyConfigurator.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		68B9BD6217E34300005134C5 /* InjectionService */ = {
+			isa = PBXGroup;
+			children = (
+				68B9BD6317E34300005134C5 /* CRBaseInjectionService.h */,
+				68B9BD6417E34300005134C5 /* CRBaseInjectionService.m */,
+			);
+			path = InjectionService;
+			sourceTree = "<group>";
+		};
+		68B9BD6517E34300005134C5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				68B9BD6617E34300005134C5 /* CRConfigurationProtocol.h */,
+				68B9BD7117E34704005134C5 /* CRInjectionModuleProtocol.h */,
+				6855FFB5FCEE33EEAEFD2025 /* CRAppDelegateModules.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		68B9BD7217E34741005134C5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				68B9BD7617E34767005134C5 /* CRObjectionBaseModule.h */,
+				68B9BD7717E34767005134C5 /* CRObjectionBaseModule.m */,
+				68B9BD7D17E34D6F005134C5 /* CRObjectionRegisterModule.h */,
+				68B9BD7E17E34D6F005134C5 /* CRObjectionRegisterModule.m */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		68B9BD7917E34A3A005134C5 /* ObjectionService */ = {
+			isa = PBXGroup;
+			children = (
+				68B9BD7A17E34A44005134C5 /* CRObjectionService.h */,
+				68B9BD7B17E34A44005134C5 /* CRObjectionService.m */,
+			);
+			path = ObjectionService;
+			sourceTree = "<group>";
+		};
+		68B9BD8017E34E56005134C5 /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				68B9BD8117E34E61005134C5 /* CRProtocolToTest.h */,
+				68B9BD8217E34E76005134C5 /* CRClassForTest.h */,
+				68B9BD8317E34E76005134C5 /* CRClassForTest.m */,
+				68B9BD8517E34F9F005134C5 /* CRClassWithProtocol.h */,
+				68B9BD8617E34F9F005134C5 /* CRClassWithProtocol.m */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6823FBE317E0CAF300611878 /* Build configuration list for PBXNativeTarget "Criollo" */;
 			buildPhases = (
+				D41BED3E5C3E47D1B679B558 /* Check Pods Manifest.lock */,
 				6823FBB317E0CAF300611878 /* Sources */,
 				6823FBB417E0CAF300611878 /* Frameworks */,
 				6823FBB517E0CAF300611878 /* Resources */,
+				AB36F767FE8D40ABBB095675 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +355,7 @@
 				ORGANIZATIONNAME = Sheva;
 				TargetAttributes = {
 					6823FBD117E0CAF300611878 = {
-						TestTargetID = 6823FBB617E0CAF300611878;
+						TestTargetID = 6823FBB617E0CAF300611878 /* Criollo */;
 					};
 				};
 			};
@@ -235,13 +397,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AB36F767FE8D40ABBB095675 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D41BED3E5C3E47D1B679B558 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6823FBB317E0CAF300611878 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6823FBC717E0CAF300611878 /* main.m in Sources */,
-				6823FBCB17E0CAF300611878 /* CRAppDelegate.m in Sources */,
+				68B9BD6817E34300005134C5 /* CRBaseInjectionService.m in Sources */,
+				68B9BD7817E34767005134C5 /* CRObjectionBaseModule.m in Sources */,
+				68B9BD7C17E34A44005134C5 /* CRObjectionService.m in Sources */,
+				68B9BD8417E34E76005134C5 /* CRClassForTest.m in Sources */,
+				68B9BD8717E34F9F005134C5 /* CRClassWithProtocol.m in Sources */,
+				685674B417E36E4400403049 /* CRApplicationDelegateDependencyConfigurator.m in Sources */,
+				68B9BD6717E34300005134C5 /* CRAppDelegate.m in Sources */,
+				68B9BD7F17E34D6F005134C5 /* CRObjectionRegisterModule.m in Sources */,
+				6855FC590E89507255424607 /* CRBindModel.m in Sources */,
+				6855F120B5295163796DEAA3 /* CRDependencyBuilder.m in Sources */,
+				6855F8CE28332B0C5722404B /* CRDependencyContainer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,11 +564,13 @@
 		};
 		6823FBE417E0CAF300611878 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD06AC387D7F4E3CA448FA8B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Criollo/Criollo-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "Criollo/Criollo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -372,11 +579,13 @@
 		};
 		6823FBE517E0CAF300611878 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD06AC387D7F4E3CA448FA8B /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Criollo/Criollo-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "Criollo/Criollo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -444,6 +653,7 @@
 				6823FBE517E0CAF300611878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6823FBE617E0CAF300611878 /* Build configuration list for PBXNativeTarget "CriolloTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +662,7 @@
 				6823FBE817E0CAF300611878 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
